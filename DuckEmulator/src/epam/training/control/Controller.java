@@ -39,7 +39,7 @@ public class Controller {
 	    System.out.println(Constants.CONGRATULATIONS);
 	}
 	
-	
+	/**This method validates if command should be execute using one logic following DRY principle */
 	private boolean isAction(String command) {
 		boolean isAction= false;
 		Position position = new Position(duck.getPosition().getX(),duck.getPosition().getY());
@@ -83,7 +83,7 @@ public class Controller {
 		return isAction;
 	}
 	
-		
+	/**This method validates all possible actions using one logic following DRY principle */	
 	 private boolean isAvailableAction(Position position){
 			
 		int newX = position.getX();

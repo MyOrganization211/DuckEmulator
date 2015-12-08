@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 
 import epam.training.model.Constants;
 
-
+/**
+ * According to SRP Listener has one responsibility to take the keyboard input.
+ */
 	public class Listener{ 
 	
 	public Listener() {

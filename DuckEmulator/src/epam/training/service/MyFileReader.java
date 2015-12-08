@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * According to SRP MyFileReader has one responsibility to read the file.
+ */
+
 public class MyFileReader {
 	
 	private List <String[]> data;

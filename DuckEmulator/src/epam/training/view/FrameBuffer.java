@@ -4,6 +4,10 @@ import java.util.List;
 import epam.training.model.Duck;
 import epam.training.model.Labyrinth;
 
+/**
+ * According to SRP FrameBuffer has one responsibility to display.
+ */
+
 public class FrameBuffer {
 	private Duck duck;
 	private Labyrinth labyrinth;
